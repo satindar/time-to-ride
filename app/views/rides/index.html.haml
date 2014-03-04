@@ -1,0 +1,9 @@
+Welcome to your rides page.
+
+= link_to 'Add ride', new_ride_path
+
+#rides
+  - @rides.each do |ride|
+    %li.ride #{ride.title}
+
+Ride count: #{@ride_count}
