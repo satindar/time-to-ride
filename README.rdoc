@@ -1,7 +1,17 @@
-== README
+== Time to Ride
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application serves two main purposes:
+ 1) A way to connect with felllow cyclists to get out there and ride bikes (MTB, road, CX, BMX, DJ...anything!)
+ 2) A means for me (Satindar Dhillon) to expand, and show, my web development skills.
+
+Initial Development Steps:
+ 1) Install gems
+ 2) Database setup
+ 3) Testing setup
+ 4) Write initial tests
+ 5) Setup Devise
+ 6) Setup Bootstrap
+ 7)....
 
 Things you may want to cover:
 
@@ -23,6 +33,3 @@ Things you may want to cover:
 
 * ...
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
