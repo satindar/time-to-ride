@@ -6,7 +6,7 @@
 
 ####Initial Development Steps:
  * ~~Create blank rails app~~
- * Database setup (Postgres)
+ * ~~Database setup (Postgres)~~
  * ~~Testing setup (Rspec and Capybara)~~
  * ~~Write initial tests~~
  * Setup Devise
