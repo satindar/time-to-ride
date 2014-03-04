@@ -11,10 +11,21 @@ feature 'User can manage their own rides' do
     visit root_path
     click_link 'Add ride'
     fill_in 'Title', with: 'Headlands Loop'
-    click_button 'Add ride'
+    click_button 'Create ride'
 
     within('#rides') do
       expect(page).to have_content('Headlands Loop')
     end
+  end
+
+  scenario 'Sees a count of total rides they have created' do
+    visit root_path
+    expect(page).to have_content('Ride count: 0')
+
+    click_link 'Add ride'
+    fill_in 'Title', with: 'Headlands Loop'
+    click_button 'Create ride'
+
+    expect(page).to have_content('Ride count: 1')
   end
 end
