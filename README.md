@@ -1,5 +1,7 @@
 # Time to Ride
 
+[![Code Climate](https://codeclimate.com/github/satindar/time-to-ride.png)](https://codeclimate.com/github/satindar/time-to-ride)
+
 ####This application serves two main purposes:
  - A way to connect with fellow cyclists to get out there and ride bikes (MTB, road, CX, BMX, DJ...anything!). Users will have the ability to create rides (time, date, and meetup spot) as well as search for rides based on location and time. 
  - A means for me (Satindar Dhillon) to expand, and show, my web development skills.
