@@ -1,9 +1,2 @@
 language: ruby
 rvm: ruby-2.1.1
-deploy:
-  provider: heroku
-  api_key:
-    secure: DA7vfbD8oF990GUrVxsGD7d+wdydOtsWyLQo63Gg9O9WrUiS9srPe5klgSJS0bIbsrP55/hydwUTbg6ub+D4JIY9Sl2cmWDRnBzLrPTepbbOSxKTeqI3GWjd2e45YtRHhOaEMQweV/jinc1LhJ+alOwGRJTU2K84IoP9I2uVfJ4=
-  app: vast-woodland-4200
-  on:
-    repo: satindar/time-to-ride
